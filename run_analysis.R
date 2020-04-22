@@ -57,4 +57,4 @@ setwd("~/CMIA/Cursos/Coursera - Data Scientist Specialization/Course 3/UCI HAR D
   ## GROUP AND SUMMARIZE
   tidy_set <- tidy_set %>% group_by(ACTIVITY, SUBJECT_ID, variable) %>% summarise(AVERAGE=mean(value)) %>% rename(VARIABLE=variable)
   
-write.csv(tidy_set, "tidy_set.csv", row.names = F)
+write.table(tidy_set, "tidy_set.txt", row.names = F)
