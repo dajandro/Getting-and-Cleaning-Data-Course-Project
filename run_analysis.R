@@ -3,7 +3,7 @@ library(dplyr)
 library(reshape2)
 
 # SET WORKING DIRECTORY
-setwd("~/CMIA/Cursos/Coursera - Data Scientist Specialization/Course 3/UCI HAR Dataset")
+# setwd("~/CMIA/Cursos/Coursera - Data Scientist Specialization/Course 3/UCI HAR Dataset")
 
 # Merge the training and the test sets to create one data set
   ## READ FEATURES FILE
